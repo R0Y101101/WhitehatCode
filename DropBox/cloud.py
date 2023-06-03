@@ -1,5 +1,5 @@
 import dropbox 
-
+# this code uploads a file to drop box with given acces key
 class TransferData:
     def __init__(self,access_token):
         self.access_token = access_token
